@@ -1,2 +1,4 @@
 	name: madStacks
 	markdown: kramdown
+
+theme: jekyll-theme-hacker
