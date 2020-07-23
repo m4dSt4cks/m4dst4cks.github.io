@@ -29,7 +29,7 @@
         {{ content }}
 		<br/>
 		{% for post in site.posts %}
-			<link href="{{ site.github.repository_name }}{{ post.url }}"/>
+			<a href="{{ site.github.repository_name }}{{ post.url }}"/>{{ post.title }}</a>
 		{% endfor %}
       </section>
     </div>
