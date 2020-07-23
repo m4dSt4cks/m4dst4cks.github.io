@@ -1,3 +1,3 @@
-# About
+# About Me
 
-* test file
+* Reach out to me on twitter @madStacks3

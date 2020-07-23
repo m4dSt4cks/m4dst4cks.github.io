@@ -1,4 +1,4 @@
-title: madStacks.github.io
-description: Starter blog
+title: madStacks
+description: A collection of CTF notes and resources
 permalink: /blog/:year/:month/:day/:title
 author: madStacks
