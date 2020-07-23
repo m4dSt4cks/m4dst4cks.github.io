@@ -29,5 +29,13 @@
         {{ content }}
       </section>
     </div>
+	<div>
+    <div class="container">
+		{% for post in site.posts %}
+			<entry>
+				<link href="{{ site.github.repository_name }}{{ post.url }}"/>
+			</entry>
+		{% endfor %}
+    </div>
   </body>
 </html>
