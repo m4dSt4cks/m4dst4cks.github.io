@@ -1,2 +1,4 @@
-title: madStacks
+title: madStacks.github.io
 description: Starter blog
+permalink: /blog/:year/:month/:day/:title
+author: madStacks
