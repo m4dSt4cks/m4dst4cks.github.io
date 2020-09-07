@@ -2,4 +2,4 @@
 layout: default
 ---
 
-[About Me](./about)
+A slowly expanding collection of random posts and CTF resources.
