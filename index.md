@@ -2,12 +2,8 @@
 layout: default
 ---
 
-## Web Exploitation
+# Posts
 
-## Binary Exploitation and Reverse Engineering
 
-## Forensics and Steganography
 
-## Cryptography
-
-## Miscellaneous
+[About Me](./about).
