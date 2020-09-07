@@ -1,6 +1,6 @@
 (function($) {
 $(document).ready(function(){
-
+  /*
   // putting lines by the pre blocks
   $("pre").each(function(){
     var pre = $(this).text().split("\n");
@@ -18,6 +18,7 @@ $(document).ready(function(){
     }
     $(this).before("<pre class='lines'>" + lines.join("\n") + "</pre>");
   });
+  */
 
   var headings = [];
 
