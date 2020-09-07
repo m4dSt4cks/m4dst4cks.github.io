@@ -2,4 +2,4 @@
 layout: default
 ---
 
-[About Me](./about).
+[About Me](./about)
