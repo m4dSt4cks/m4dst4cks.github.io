@@ -1,32 +1,35 @@
-<!DOCTYPE html>
+<!doctype html>
+<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
+<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on https://github.com/jonrohan -->
 <html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+  <script src="{{ '/assets/js/script.js' | relative_url }}"></script>
 
 {% seo %}
   </head>
 
   <body>
-
+  
+    <div class="wrapper">
     <header>
-      <div class="container">
-        <a id="a-title" href="{{ '/' | relative_url }}">
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        </a>
-        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-      </div>
+      <h1 class="title">{{ site.title | default: site.github.repository_name }}</h1>
     </header>
-
-    <div class="container">
-      <section id="main_content">
-        {{ content }}
-      </section>
+    <div id="container">
+      <p class="tagline">{{ site.description | default: site.github.project_tagline }}</p>
+      <div id="main" role="main">
+        <article class="markdown-body">
+          {{ content }}
+        </article>
+      </div>
     </div>
-    <div class="container">
-      <section id="main_content">
+    <footer>
+      <section>
 		<br/>
 		<br/>
 		<h2>Posts</h2>
@@ -34,6 +37,7 @@
 			<a href="{{ site.github.repository_name }}{{ post.url }}"/>{{ post.title }}</a><br/>
 		{% endfor %}
       </section>
-    </div>
+    </footer>
+  </div>
   </body>
 </html>
