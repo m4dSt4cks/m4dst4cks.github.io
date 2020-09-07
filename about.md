@@ -4,4 +4,4 @@ Hey, my name is John Johnson and I am currently a grad student at Carnegie Mello
 
 * Reach out to me on twitter @madStacks3
 
-![](https://raw.githubusercontent.com/m4dSt4cks/m4dst4cks.github.io/master/assets/images/me.jpg)
+![](https://raw.githubusercontent.com/m4dSt4cks/m4dst4cks.github.io/master/public/img/me.jpg)

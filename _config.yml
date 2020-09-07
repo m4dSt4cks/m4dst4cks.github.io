@@ -2,5 +2,15 @@ title: madStacks
 description: A slowly expanding collection of random posts and CTF resources
 permalink: /blog/:year/:month/:day/:title
 author: madStacks
-theme: jekyll-theme-time-machine
-show_downloads: false
+github_username: m4dst4cks
+highlighter: rouge
+svg:
+  optimize: true
+# Build settings
+# theme: minima
+highlighter-theme: monokai
+date_format: "%Y-%M-%D"
+plugins:
+  - jekyll-feed
+category_dir: category/
+tag_dir: tag/
