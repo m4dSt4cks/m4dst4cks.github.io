@@ -35,13 +35,6 @@
 
 #content br {display: none;}
 #content p br {display: inline;}
-#content p::after {content: "<br />";}
-#content h2::after {content: "<br />";}
-#content h3::after {content: "<br />";}
-#content h4::after {content: "<br />";}
-#content h5::after {content: "<br />";}
-#content h6::after {content: "<br />";}
-
 * {
 	box-sizing: border-box;
 }
