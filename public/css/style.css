@@ -35,11 +35,12 @@
 
 #content br {display: none;}
 #content p br {display: inline;}
-#content h2 br {display: inline;}
-#content h3 br {display: inline;}
-#content h4 br {display: inline;}
-#content h5 br {display: inline;}
-#content h6 br {display: inline;}
+#content p::after {content: "<br />";}
+#content h2::after {content: "<br />";}
+#content h3::after {content: "<br />";}
+#content h4::after {content: "<br />";}
+#content h5::after {content: "<br />";}
+#content h6::after {content: "<br />";}
 
 * {
 	box-sizing: border-box;
