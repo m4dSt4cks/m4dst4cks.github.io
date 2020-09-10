@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: home
 ---
 
-A slowly expanding collection of random posts and CTF resources.
+# Welcome!
+
