@@ -33,8 +33,7 @@
   --font-family-serif: "Nanum Myeongjo";
 }
 
-#content br {display: inline;}
-#content p br {display: inline;}
+#content br {display: none;}
 
 * {
 	box-sizing: border-box;
